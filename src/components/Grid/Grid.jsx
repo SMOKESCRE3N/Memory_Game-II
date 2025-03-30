@@ -18,6 +18,7 @@ import Card from '../Card/Card';
 //       });
 // }
 
+//from here
 
 const fetchAnimeCharacters = async () => {
   const response = await fetch("https://api.jikan.moe/v4/top/characters");
@@ -34,6 +35,9 @@ const fetchAnimeCharacters = async () => {
 
   return selectedCharacters;
 };
+
+
+
 
 
 function Grid({ score, setScore, bestScore, setBestScore }) {

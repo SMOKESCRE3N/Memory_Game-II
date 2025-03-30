@@ -15,7 +15,8 @@ function Card({name, image, onClick}) {
             <img 
             src={image}
             alt={name}
-            className="w-full h-60 overflow-auto  group-hover:scale-120 transition-transform"
+            className="w-auto h-auto p-4 overflow-auto  group-hover:scale-110  rounded-lg group-hover:rounded-xl transition-all duration-300"
+
             />
         </div>
         <h2 className='text-center mt-2 text-lg font-serif font-extrabold text-black text-wrap italic'>{name.toUpperCase()}</h2>
